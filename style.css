@@ -1,0 +1,103 @@
+ /*Giving all Classes in my Html this style (*) */
+ 
+ *{
+      box-sizing: border-box;
+ }
+ /* =========================================== */
+
+ /* Setting my default Style */
+ /* 16px = 1rem */
+ html,
+ body {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 16px;
+     padding: 0;
+     margin: 0;
+ }
+
+/* =========================================== */
+
+ /* Header Styling*/
+
+ ul,
+ li {
+     list-style-type: none;
+     display: inline-block;
+ }
+
+ .list-group {
+     float: right;
+     margin: 1rem 1rem 1rem 1rem;
+ }
+
+ .list-group-item{
+     padding: .5rem;
+ }
+
+
+ /* =========================================== */
+
+ /* Section Styling*/
+
+
+ .body{
+     height: 80vh;
+     text-align: center;
+     clear: both;
+ }
+
+ .body_1{
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -35%);
+ }
+
+ .google{
+     font-size: 5rem;
+     margin: .1rem;
+ }
+ .color-r{
+     color: rgb(197, 15, 15);
+ }
+ .color-y{
+    color: orange;
+}
+.color-b{
+    color: dodgerblue;
+}
+
+.color-g{
+    color: green;
+}
+
+.input-group{
+    width: 35rem;
+    box-shadow: .5px .5px 10px .5px rgb(124, 124, 124);
+    /* border: solid 1px; */
+    /* padding: 10px; */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    margin: 5px auto 10px auto;
+}
+
+.input[type='text'] {
+    width: 70%;
+    height: 35px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    
+}
+
+button{
+    width: 10rem;
+    padding: 10px;
+    border: none;
+}
+
+ /* =========================================== */
+
+ /* Section Styling*/
